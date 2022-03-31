@@ -1,0 +1,25 @@
+.nav-link{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    display: block;
+    color: white;
+    transform: matrix(1, 0, 0, 1, 0, 0);
+    transition: all 1s ease;
+    text-decoration: none solid rgb(255, 255, 255, 0.835);
+}
+
+.nav-link:hover{
+    color: #F05454;
+}
+
+ul{
+    background-color: #3f3e3e70;
+}
+
+.shkere{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    position: center;
+    left: 1px;
+}

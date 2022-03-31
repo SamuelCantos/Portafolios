@@ -1,0 +1,90 @@
+.info{
+    background-color: #3f3e3e60;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    padding: 4rem;
+    margin: 4rem;
+    font-family: 'Nunito', sans-serif;
+    font-size: 25px;
+}
+
+.fotoPerfil{
+    border-radius: 2%;
+    background-color: red;
+}
+
+.fotoPerfil:hover{
+    box-shadow: 0 0.5rem 0.9rem rgb(168, 80, 80);
+    transition: box-shadow 0.3s ease;
+}
+
+.sobremi{
+    font-size: 60px;
+    text-shadow: 0.5px 0.5px 10px red;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 50px;
+    font-family: 'Nunito', sans-serif;
+} 
+
+.sobremi section{
+    padding: 10px;
+}
+
+.number{
+    color: #F05454;
+}
+
+.texto{
+    padding: 1rem;
+}
+
+.samuel{
+    display: block;
+    justify-content: center;
+    flex-direction: row;
+    color: #C85C5C;
+}
+
+.s1{
+    color: #C85C5C;
+    font-family: 'Nunito', sans-serif;
+    font-size: 30px;
+}
+
+.s2{
+    padding-left: 1.2rem;
+}
+
+.hola{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    
+}
+
+.descarga-boton{
+    font-size: 20px;
+    color: white;
+    font-family: 'Nunito', sans-serif;
+    border-radius: 5%;
+    padding: 0.5rem 0.5rem;
+    background-color: #F05454;
+}
+
+.divBoton{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    text-decoration: none;
+    padding-top: 1rem;
+}
+
+.descarga-boton:hover{
+    background-color:#630000;
+    transition: 1s ease; 
+    color: white;
+    text-decoration: none;
+}

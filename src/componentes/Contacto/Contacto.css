@@ -1,0 +1,52 @@
+
+
+
+.contacto{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #bd4d4d60;
+    width: 50%;
+    height: 30%;
+    margin: 10px;
+}
+
+.telefono{
+    display: block;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.icono-iphone{
+    display: flex;
+    align-items: flex-start;
+}
+
+.numero-telefono{
+    font-size: 25px;
+}
+
+.gmail{
+    font-size: 17px;
+}
+
+.conteiner-contacto{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.conteiner-iconos{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+
+
+
