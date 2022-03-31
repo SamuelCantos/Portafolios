@@ -24,7 +24,7 @@ function Proyectos () {
             <div className='container-proyects2'>
             <p className='titulo-img'>P O K E D E X</p>
                 <img className="learnzilla-img" src={Pokedex} width="400" height="300"/>
-                <p className='desrcipcion'>Una App donde podemos buscar diferentes pokemons por sus caracteristicas, consumiendo una API externa. Tambien podemos crear uno.</p>
+                <p className='desrcipcion'>Una App donde podemos buscar diferentes pokemons por sus caracteristicas, consumiendo una API externa.</p>
             </div>
             </div>
         </div>

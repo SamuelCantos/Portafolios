@@ -1,8 +1,7 @@
 import React from "react";
 import "./Home.css"
-import GitHubIcon from '@material-ui/icons/GitHub';
-import LinkedInIcon from '@material-ui/icons/LinkedIn';
 import NavBar from "../NavBar/NavBar";
+import { AiFillGithub, AiFillLinkedin} from "react-icons/ai";
 
 
 function Home() {
@@ -15,10 +14,10 @@ function Home() {
             </div>
             <div className="icons">
                 <a href="https://github.com/SamuelCantos">
-                    <GitHubIcon className="icono" />
+                    <AiFillGithub className="icono" />
                 </a>
                 <a href="https://www.linkedin.com/in/samuel-cantos-perez-4811a1208/">
-                    <LinkedInIcon className="icono" />
+                    <AiFillLinkedin className="icono" />
                 </a>
         </div>
         </div>

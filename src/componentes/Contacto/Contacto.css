@@ -22,6 +22,7 @@
 .icono-iphone{
     display: flex;
     align-items: flex-start;
+    font-size: 3rem;
 }
 
 .numero-telefono{
@@ -46,7 +47,6 @@
     justify-content: center;
 }
 
-
-
-
-
+.icono{
+    font-size: 3rem;
+}

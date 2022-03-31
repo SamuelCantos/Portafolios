@@ -5,6 +5,7 @@ import GitHubIcon from '@material-ui/icons/GitHub';
 import LinkedInIcon from '@material-ui/icons/LinkedIn';
 import PhoneIphoneIcon from '@material-ui/icons/PhoneIphone';
 import EmailIcon from '@material-ui/icons/Email';
+import { AiFillGithub, AiFillLinkedin, AiFillPhone, AiOutlineMail } from "react-icons/ai";
 
 
 function Contacto () {
@@ -19,7 +20,7 @@ function Contacto () {
             <div className='conteiner-contacto'>
             <div className='contacto'>
                     <h3 className="icono-iphone">
-                    <PhoneIphoneIcon/>
+                    <AiFillPhone/>
                     </h3>
                 <div className='telefono'>
                     <h3>Telefono-Celular</h3>
@@ -28,7 +29,7 @@ function Contacto () {
             </div>
             <div className='contacto'>
                     <h3 className="icono-iphone">
-                    <EmailIcon/>
+                    <AiOutlineMail/>
                     </h3>
                 <div className='telefono'>
                     <h3>Gmail</h3>
@@ -36,11 +37,11 @@ function Contacto () {
                 </div>
             </div>
             <div className="icons">
-                <a href="https://github.com/SamuelCantos">
-                    <GitHubIcon className="icono" />
+                <a className='aver' href="https://github.com/SamuelCantos">
+                    <AiFillGithub className="icono" />
                 </a>
                 <a href="https://www.linkedin.com/in/samuel-cantos-perez-4811a1208/">
-                    <LinkedInIcon className="icono" />
+                    <AiFillLinkedin className="icono" />
                 </a>
         </div>
             </div>

@@ -43,8 +43,8 @@
     }
 
     .icono:hover{
-        color: red;
-        transition: 1s ease;
+        color: rgb(125, 53, 53);
+        transition: 1.2s ease;
     }
     
     
