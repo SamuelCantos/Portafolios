@@ -13,10 +13,10 @@ function Home() {
                 <h2>Full Stack Developer</h2>
             </div>
             <div className="icons">
-                <a href="https://github.com/SamuelCantos">
+                <a target="_blank" href="https://github.com/SamuelCantos">
                     <AiFillGithub className="icono" />
                 </a>
-                <a href="https://www.linkedin.com/in/samuel-cantos-perez-4811a1208/">
+                <a target="_blank" href="https://www.linkedin.com/in/samuel-cantos-perez-4811a1208/">
                     <AiFillLinkedin className="icono" />
                 </a>
         </div>

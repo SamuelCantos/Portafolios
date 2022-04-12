@@ -37,10 +37,10 @@ function Contacto () {
                 </div>
             </div>
             <div className="icons">
-                <a className='aver' href="https://github.com/SamuelCantos">
+                <a className='aver' target="_blank" href="https://github.com/SamuelCantos">
                     <AiFillGithub className="icono" />
                 </a>
-                <a href="https://www.linkedin.com/in/samuel-cantos-perez-4811a1208/">
+                <a  target="_blank" href="https://www.linkedin.com/in/samuel-cantos-perez-4811a1208/">
                     <AiFillLinkedin className="icono" />
                 </a>
         </div>

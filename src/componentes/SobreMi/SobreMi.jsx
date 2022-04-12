@@ -29,7 +29,7 @@ function SobreMi() {
                         </div>
                         <div>
                             <span className="s1">Lenguajes:</span>
-                            <span className="s2" >Español/Portugues.</span>
+                            <span className="s2" >Español/Portugues/Ingles.</span>
                         </div>
                         <div>
                         <span className="s1">Lugar:</span>

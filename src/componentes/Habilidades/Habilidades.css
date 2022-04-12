@@ -17,96 +17,25 @@
     flex-direction: row;
 }
 
-.container-habilidad{
-    width: 100%;
-    background-color: rgb(31, 30, 30);
+.container-skills{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: #3f3e3e60;
 }
 
-.skills{
-text-align: right;
-padding: 10px;
-color: white;
-font-weight: bold;
+.icono-titulo{
+    font-family:'Montserrat', sans-serif;
+    padding: 1.5rem;
+    overflow: hidden;
+    text-align: center;
+    transition: all 0.25s;
+    cursor: pointer;
 }
 
-.html{
-    background-color: rgb(122, 40, 40);
-    animation: fillhtml 2s forwards
-}
-.css{
-    background-color: rgb(122, 40, 40);
-    animation: fillcss 2s forwards
-}
-.react{
-    background-color: rgb(122, 40, 40);
-    animation: fillreact 2s forwards
-}
-.node{
-    background-color: rgb(122, 40, 40);
-    animation: fillnode 2s forwards
-}
-.express{
-    background-color: rgb(122, 40, 40);
-    animation: fillexpress 2s forwards
-}
-.postgre{
-    background-color: rgb(122, 40, 40);
-    animation: fillpostgre 2s forwards
-}
-.js{
-    background-color: rgb(122, 40, 40);;
-    animation: filljs 2s forwards
-}
-.redux{
-    background-color: rgb(122, 40, 40);
-    animation: fillredux 2s forwards
-}
-
-.p-skill{
-    display: block;
-    font-family: 'Nunito', sans-serif;
-    font-size: 30px;
-    margin: 0 auto
-}
-
-.container-skill{
-    padding: auto;
-    margin: 15px;
-}
-
-
-
-
-@keyframes fillhtml{
-    0%{width: 0;}
-    100%{width: 90%;}
-}
-@keyframes fillcss{
-    0%{width: 0;}
-    100%{width: 60%;}
-}
-@keyframes fillreact{
-    0%{width: 0;}
-    100%{width: 90%;}
-}
-@keyframes fillnode{
-    0%{width: 0;}
-    100%{width: 65%;}
-}
-@keyframes fillpostgre{
-    0%{width: 0;}
-    100%{width: 60%;}
-}
-@keyframes fillexpress{
-    0%{width: 0;}
-    100%{width: 60%;}
-}
-@keyframes filljs{
-    0%{width: 0;}
-    100%{width: 90%;}
-}
-@keyframes fillredux{
-    0%{width: 0;}
-    100%{width: 90%;}
+.icono-titulo:hover{
+    transform: translate(-15px);
+    box-shadow: 0 12px 16px rgba(0, 0, 0, 0.3);
 }
 
