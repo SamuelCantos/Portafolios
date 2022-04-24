@@ -1,13 +1,13 @@
 import React from "react";
 import "./Home.css"
 import NavBar from "../NavBar/NavBar";
-import { AiFillGithub, AiFillLinkedin} from "react-icons/ai";
+import { AiFillGithub, AiFillLinkedin } from "react-icons/ai";
 
 
-function Home() {
+function Home({isCurrent}) {
     return (
-        <div className="container">     
-        <NavBar/>
+        <div className="container">
+            <NavBar />
             <div className="hs">
                 <h1>Samuel Cantos</h1>
                 <h2>Full Stack Developer</h2>
@@ -19,7 +19,7 @@ function Home() {
                 <a target="_blank" href="https://www.linkedin.com/in/samuel-cantos-perez-4811a1208/">
                     <AiFillLinkedin className="icono" />
                 </a>
-        </div>
+            </div>
         </div>
     )
 }

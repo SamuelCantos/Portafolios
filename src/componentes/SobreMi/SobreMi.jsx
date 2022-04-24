@@ -7,7 +7,7 @@ import cv from "./cv.pdf";
 function SobreMi() {
     return (
         <div className="container">
-            <NavBar />
+            <NavBar /> 
             <div className="sobremi">
                 <section className="number">01.</section>
                 <section>SOBRE MI</section>

@@ -2,6 +2,7 @@ import React from 'react';
 import NavBar from "../NavBar/NavBar";
 import Learnzilla from "./Learnzilla.png"
 import Pokedex from "./Pokedex.png"
+import Minecraft from "./Minecraft.png"
 import "./Proyectos.css"
 
 
@@ -22,9 +23,16 @@ function Proyectos () {
                 <p className='desrcipcion'>Una plataforma para cursos online, donde podemos ser tanto alumno como profesor con sus diferentes funciones.</p>
             </div>
             <div className='container-proyects2'>
-            <p className='titulo-img'>P O K E D E X</p>
+            <p className='titulo-img'>M I N E C R A F T</p>
                 <img className="learnzilla-img" src={Pokedex} width="400" height="300"/>
                 <p className='desrcipcion'>Una App donde podemos buscar diferentes pokemons por sus caracteristicas, consumiendo una API externa.</p>
+            </div>
+            <div className='container-proyects2'>
+            <p className='titulo-img'>P O K E D E X</p>
+            <a href='https://three-l4998tnuo-samuelcantos.vercel.app/' target="_blank">
+                <img className="learnzilla-img" src={Minecraft} width="400" height="300"/>
+                </a>
+                <p className='desrcipcion'>Proyecto realizado con ThreeJS Fiber, podemos ver un modelo 3D, tambien cuenta con interacciones</p>
             </div>
             </div>
         </div>
