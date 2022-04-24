@@ -15,7 +15,7 @@ function Contacto () {
             <NavBar/>
             <div className="textoH">
                 <section className="number">04.</section>
-                <section>Contacto</section>
+                <section>CONTACTO</section>
             </div>
             <div className='conteiner-contacto'>
             <div className='contacto'>
