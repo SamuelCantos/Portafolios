@@ -4,7 +4,7 @@ import NavBar from "../NavBar/NavBar";
 import { AiFillGithub, AiFillLinkedin } from "react-icons/ai";
 
 
-function Home({isCurrent}) {
+function Home() {
     return (
         <div className="container">
             <NavBar />
