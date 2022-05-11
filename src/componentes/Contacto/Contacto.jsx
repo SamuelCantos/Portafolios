@@ -11,12 +11,13 @@ import { AiFillGithub, AiFillLinkedin, AiFillPhone, AiOutlineMail } from "react-
 function Contacto () {
     
     return (
-        <div className='container'>
+        <div>
             <NavBar/>
             <div className="textoH">
                 <section className="number">04.</section>
                 <section>CONTACTO</section>
             </div>
+        <div className='containerHome'>
             <div className='conteiner-contacto'>
             <div className='contacto'>
                     <h3 className="icono-iphone">
@@ -47,6 +48,7 @@ function Contacto () {
             </div>
             
             
+        </div>
         </div>
     )
 }

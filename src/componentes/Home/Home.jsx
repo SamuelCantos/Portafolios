@@ -6,10 +6,11 @@ import { AiFillGithub, AiFillLinkedin } from "react-icons/ai";
 
 function Home() {
     return (
-        <div className="container">
+        <div>
             <NavBar />
+        <div className="containerHome">
             <div className="hs">
-                <h1>Samuel Cantoss</h1>
+                <h1>Samuel Cantos</h1>
                 <h2>Full Stack Developer</h2>
             </div>
             <div className="icons">
@@ -20,6 +21,7 @@ function Home() {
                     <AiFillLinkedin className="icono" />
                 </a>
             </div>
+        </div>
         </div>
     )
 }

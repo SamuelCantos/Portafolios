@@ -6,17 +6,16 @@
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-    background-color: #bd4d4d60;
-    width: 50%;
-    height: 30%;
-    margin: 10px;
+    background-color: #bd4d4d60;  
+    margin: 20px;
+    width: 20vw;
+    height: 15vh;
 }
 
 .telefono{
     display: block;
     flex-direction: row;
     justify-content: space-between;
-    align-items: flex-end;
 }
 
 .icono-iphone{
@@ -38,7 +37,6 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 100vh;
 }
 
 .conteiner-iconos{

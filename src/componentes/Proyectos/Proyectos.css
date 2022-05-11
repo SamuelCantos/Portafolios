@@ -2,11 +2,7 @@
 .container-proyects1{
     display: flex;
     justify-content: space-between;
-    height: 80vh;
-}
-
-.container{
-    height: 100vh;
+   margin-top: 15px;
 }
 
 
@@ -42,9 +38,8 @@
 .desrcipcion{
     display:flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
-    width: 50vh;
     font-family: 'Nunito', sans-serif;
     padding: 20px;
 }
