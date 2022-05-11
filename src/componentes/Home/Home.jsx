@@ -9,7 +9,7 @@ function Home() {
         <div className="container">
             <NavBar />
             <div className="hs">
-                <h1>Samuel Cantos</h1>
+                <h1>Samuel Cantoss</h1>
                 <h2>Full Stack Developer</h2>
             </div>
             <div className="icons">
