@@ -40,7 +40,7 @@ function Contacto () {
                 <a className='aver' target="_blank" href="https://github.com/SamuelCantos">
                     <AiFillGithub className="icono" />
                 </a>
-                <a  target="_blank" href="https://www.linkedin.com/in/samuel-cantos-perez-4811a1208/">
+                <a  target="_blank" href="https://www.linkedin.com/in/samuel-cantos-4811a1208/">
                     <AiFillLinkedin className="icono" />
                 </a>
         </div>
