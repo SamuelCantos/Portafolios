@@ -10,11 +10,11 @@ function Proyectos() {
     return (
         <div>
 
-            <NavBar/>
-                <div className="textoH">
-                    <section className="number">03.</section>
-                    <section>PROYECTOS</section>
-                </div>
+            <NavBar />
+            <div className="textoH">
+                <section className="number">03.</section>
+                <section>PROYECTOS</section>
+            </div>
             <div className='container'>
                 <div className='container-proyects1'>
                     <div className='container-proyects2'>
@@ -38,7 +38,7 @@ function Proyectos() {
                     </div>
                 </div>
             </div>
-            </div>
+        </div>
     )
 }
 
