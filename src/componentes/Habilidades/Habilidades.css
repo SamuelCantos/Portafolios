@@ -1,11 +1,10 @@
 .textoH{
-    font-size: 60px;
-    text-shadow: 0.5px 0.5px 5px red;
+    font-size: 70px;
     display: flex;
     flex-direction: row;
     justify-content: center;
-    margin-top: 60px;
-    font-family: 'Nunito', sans-serif;
+    margin-top: 50px;
+    font-family: 'Smooch Sans', sans-serif;
 } 
 
 .textoH section{

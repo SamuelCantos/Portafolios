@@ -5,8 +5,10 @@ import Home from "./componentes/Home/Home.jsx";
 import Proyectos from "./componentes/Proyectos/Proyectos.jsx";
 import SobreMi from "./componentes/SobreMi/SobreMi.jsx";
 
+
 function App() {
   return (
+
     <Routes>
       <Route exact path="/" element={<Home/>}/>
       <Route exact path="/sobremi" element={<SobreMi/>}/>
@@ -14,6 +16,7 @@ function App() {
       <Route exact path="/proyectos" element={<Proyectos/>}/>
       <Route exact path="/contacto" element={<Contacto/>}/>
     </Routes>
+  
   );
 }
 

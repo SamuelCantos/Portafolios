@@ -14,14 +14,13 @@ function SobreMi() {
                 <section>SOBRE MI</section>
             </div>
             <div className="info">
-                <img className="fotoPerfil" src={fotoperfilblack} width="400px" height="400px" />
+                <img className="fotoPerfil" src={fotoperfilblack} width="400px" height="270px" />
                 <div className="texto">
                     <div>
                     <span>Hola a todos! Mi nombre es:</span> <span className="samuel">SAMUEL CANTOS.</span>
                     </div>
                     <p>Nacionalidad Argentina y Española, actualmente resido en Santiago del estero, Argentina.
-                        Me gradue de Full Stack developer en Henry el dia 4/3/2022. Actualmente me encuentro en busqueda de mi primer trabajo, en donde pueda
-                        demostrar lo aprendido en todo este tiempo de tanto sacrificio.
+                        Me gradue de Full Stack developer en Henry el dia 4/3/2022. Actualmente trabajo para Henry como Asistente de enseñanza Full-Stack. Estoy dispuesto a desarrollar full time para seguir creciendo en el rubro y cumplir con mis objetivos.
                     </p>
                     <div>
                         <div>

@@ -17,7 +17,6 @@ function Contacto () {
                 <section className="number">04.</section>
                 <section>CONTACTO</section>
             </div>
-        <div className='containerHome'>
             <div className='conteiner-contacto'>
             <div className='contacto'>
                     <h3 className="icono-iphone">
@@ -46,10 +45,8 @@ function Contacto () {
                 </a>
         </div>
             </div>
-            
-            
         </div>
-        </div>
+    
     )
 }
 

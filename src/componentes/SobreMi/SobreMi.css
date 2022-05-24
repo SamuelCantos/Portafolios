@@ -3,8 +3,6 @@
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
-    padding: 4rem;
-    margin: 4rem;
     font-family: 'Nunito', sans-serif;
     font-size: 25px;
 }
@@ -20,13 +18,12 @@
 }
 
 .sobremi{
-    font-size: 60px;
-    text-shadow: 0.5px 0.5px 10px red;
+    font-size: 70px;
     display: flex;
     flex-direction: row;
     justify-content: center;
     margin-top: 50px;
-    font-family: 'Nunito', sans-serif;
+    font-family: 'Smooch Sans', sans-serif;
 } 
 
 .sobremi section{
