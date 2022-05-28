@@ -1,3 +1,5 @@
+
+  
   .containerHome{
     display: flex;
     flex-direction: column;
@@ -16,16 +18,37 @@
        flex-direction: column;
        justify-content: center;
        align-items: center;
-       font-family: 'Smooch Sans', sans-serif;
+       font-family: 'Bebas Neue', sans-serif;
     }
 
     .hs h2{
-        color: red;
+        color: #1D5C63;
         font-size: 80px;
+        float: left;
+        position: relative;
     }
     .hs h1{
-        color: white;
+        color: #417D7A;
         font-size: 100px;
+        float: left;
+        position: relative;
+    }
+    .hs span{
+        position: absolute;
+        right: 0;
+        width: 0;
+        background: #EDE6DB ; 
+        border-left: 1px solid;
+        animation: maquina 2s infinite alternate steps(19)
+    }
+
+    @keyframes maquina {
+        from {
+            width: 100%;
+        }
+        to {
+            widht: 0;
+        }
     }
 
     .icons{
@@ -37,13 +60,13 @@
     }
 
     .icono{
-        color: white;
+        color: #FFA8A8;
         margin: 1rem;
     }
 
     .icono:hover{
-        color: rgb(125, 53, 53);
-        transition: 1.2s ease;
+        color: #1D5C63;
+        transition: 1.5s ease;
     }
     
     

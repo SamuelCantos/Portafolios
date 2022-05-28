@@ -9,17 +9,10 @@
 }
 
 .nav-link:hover{
-    color: #F05454;
+    color: #FFA8A8;
 }
 
 ul{
-    background-color: #3f3e3e70;
+    background-color: #1A3C40
 }
 
-.shkere{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    position: center;
-    left: 1px;
-}

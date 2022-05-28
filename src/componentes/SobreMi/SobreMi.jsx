@@ -1,6 +1,6 @@
 import React from "react";
 import NavBar from "../NavBar/NavBar";
-import fotoperfilblack from "../imgs/fotoperfilblack.jpg"
+import fotoperfilblack from "../imgs/fotoperfil.jpg"
 import "./SobreMi.css"
 import cv from "./cv.pdf";
 
