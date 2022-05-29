@@ -56,9 +56,10 @@ function Proyectos() {
                     <Button variant="secondary" onClick={handleClose}>
                         Close
                     </Button>
-                    <Button variant="primary">Ver Proyecto</Button>
+                   
+                    <Button variant="primary"><a className='a' target="_blank" href='https://learnzilla-app.vercel.app/'>Ver Proyecto</a></Button>
                 </Modal.Footer>
-            </Modal> : "nada"}
+            </Modal> : ""}
             {proyecto === "pokedex" ? <Modal
                 className='modal'
                 show={show}
@@ -76,9 +77,8 @@ function Proyectos() {
                     <Button variant="secondary" onClick={handleClose}>
                         Close
                     </Button>
-                    <Button variant="primary">Ver Proyecto</Button>
                 </Modal.Footer>
-            </Modal> : "nada"}
+            </Modal> : ""}
             {proyecto === "three-mine" ? <Modal
                 className='modal'
                 show={show}
@@ -96,9 +96,9 @@ function Proyectos() {
                     <Button variant="secondary" onClick={handleClose}>
                         Close
                     </Button>
-                    <Button variant="primary">Ver Proyecto</Button>
+                    <Button variant="primary"><a className='a' target="_blank" href='https://three-l4998tnuo-samuelcantos.vercel.app/'>Ver Proyecto</a></Button>
                 </Modal.Footer>
-            </Modal> : "nada"}
+            </Modal> : ""}
             <div className='container-proyects1'>
                 <div onClick={handleShow} className='container-proyects2'>
                     <p className='titulo-img'>L E A R N Z I L L A    </p>
