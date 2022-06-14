@@ -19,7 +19,7 @@ function SobreMi() {
                     <div>
                     <span>Hola a todos! Mi nombre es:</span> <span className="samuel">SAMUEL CANTOS.</span>
                     </div>
-                    <p>Nacionalidad Argentina y Española, actualmente resido en Santiago del estero, Argentina.
+                    <p>Nacionalidad Argentina y Española, actualmente vivo en Santiago del estero, Argentina.
                         Me gradue de Full Stack developer en Henry el dia 4/3/2022. Actualmente trabajo para Henry como Asistente de enseñanza Full-Stack. Estoy dispuesto a desarrollar full time para seguir creciendo en el rubro y cumplir con mis objetivos.
                     </p>
                     <div>

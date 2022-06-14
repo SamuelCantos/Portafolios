@@ -87,3 +87,27 @@
     color: white;
     text-decoration: none;
 }
+
+
+@media screen and (max-width:1000px) {
+    .sobremi{
+        font-size: 40px;
+    }
+    .fotoPerfil{
+       width: 200px;
+       height: 200px;
+    }
+    .info{
+        display: flex;
+        justify-content: flex-start;
+        flex-wrap: wrap;
+        font-size: 15px;
+    }
+    .s1{
+        font-size: 20px;
+    }
+
+    .descarga-boton{
+       font-size: 20px;
+    }
+}

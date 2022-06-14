@@ -30,8 +30,7 @@
     .hs h1{
         color: #417D7A;
         font-size: 100px;
-        float: left;
-        position: relative;
+        float: left;   
     }
     .hs span{
         position: absolute;
@@ -39,17 +38,29 @@
         width: 0;
         background: #EDE6DB ; 
         border-left: 1px solid;
-        animation: maquina 2s infinite alternate steps(19)
+        animation: maquina 3s infinite alternate steps(80) 
     }
 
-    @keyframes maquina {
-        from {
-            width: 100%;
-        }
-        to {
-            widht: 0;
+    @media screen and (min-width: 500px){
+        @keyframes maquina {
+            from {
+                width: 100%;
+            }
+            to {
+                widht: 0;
+            }
         }
     }
+
+    @media screen and (max-width: 500px){
+        .hs h1{
+        font-size: 60px;
+        }
+        .hs h2{
+        font-size: 40px;
+        }
+    }
+
 
     .icons{
         display: flex;
@@ -68,6 +79,8 @@
         color: #1D5C63;
         transition: 1.5s ease;
     }
+
+
     
     
     
