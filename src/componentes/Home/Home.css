@@ -4,6 +4,7 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
     margin-top: 10%;
 } 
 
@@ -22,13 +23,14 @@
     }
 
     .hs h2{
-        color: #1D5C63;
+        color: #2EB086;
         font-size: 80px;
         float: left;
         position: relative;
     }
     .hs h1{
-        color: #417D7A;
+        position:relative;
+        color: #EEE6CE;
         font-size: 100px;
         float: left;   
     }
@@ -36,9 +38,9 @@
         position: absolute;
         right: 0;
         width: 0;
-        background: #EDE6DB ; 
+        background: #313552 ; 
         border-left: 1px solid;
-        animation: maquina 3s infinite alternate steps(80) 
+        animation: maquina 5s infinite alternate steps(80) 
     }
 
     @media screen and (min-width: 500px){
@@ -52,7 +54,7 @@
         }
     }
 
-    @media screen and (max-width: 500px){
+    @media screen and (max-width: 600px){
         .hs h1{
         font-size: 60px;
         }
@@ -81,6 +83,9 @@
     }
 
 
-    
+
+    .contenedorMayor{
+        background-color: red;
+    }
     
     

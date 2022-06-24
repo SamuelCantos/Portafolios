@@ -1,11 +1,12 @@
 .textoH{
+    position: relative;
     font-size: 70px;
     display: flex;
     flex-direction: row;
     justify-content: center;
     margin-top: 15px;
     font-family: 'Smooch Sans', sans-serif;
-    color: #F47C7C;
+    color: #EEE6CE;
 } 
 
 .textoH section{
@@ -18,12 +19,13 @@
 }
 
 .container-skills{
+    color: #EEE6CE;
+    position: relative;
     display: flex;
     flex-direction: row;
     justify-content: center;
     flex-wrap: wrap;
-    background-color: #2f2e2e60;
-    border: 1px solid black;
+    margin: 3rem;
 }
 
 .icono-titulo{

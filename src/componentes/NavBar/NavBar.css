@@ -9,10 +9,15 @@
 }
 
 .nav-link:hover{
-    color: #FFA8A8;
+    color: #2EB086;
 }
 
-ul{
-    background-color: #1A3C40
+
+
+.nav-contacto a{
+    padding: 0.5rem;
 }
+
+
+
 

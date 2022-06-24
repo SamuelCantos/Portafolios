@@ -1,26 +1,30 @@
 .info{
-    background-color: #EDE6DB;
+    position: relative;
+    margin-top: 2rem;
+    background-color: #313552;
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
     font-family: 'Nunito', sans-serif;
     font-size: 25px;
-    border: 3px solid #1A3C40;
-    color:#417D7A
+    
+    color:#EEE6CE
 }
 
 .fotoPerfil{
     border-radius: 2%;
+    transition: .5s;
 }
 
 .fotoPerfil:hover{
-    box-shadow: 0 0.5rem 0.9rem rgb(30, 71, 76);
-    transition: box-shadow 0.3s ease;
+    box-shadow: 0 0.5rem 0.9rem rgb(157, 51, 72);
+    transition: box-shadow 1s ease;
 }
 
 .sobremi{
-    color: #F47C7C;
-    font-size: 70px;
+    position: relative;
+    color: #EEE6CE;
+    font-size: 60px;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -33,7 +37,7 @@
 }
 
 .number{
-    color: #1A3C40;
+    color: #B8405E;
 }
 
 .texto{
@@ -44,11 +48,11 @@
     display: block;
     justify-content: center;
     flex-direction: row;
-    color: #F47C7C;
+    color: #2EB086;
 }
 
 .s1{
-    color: #F47C7C;
+    color: #2EB086;
     font-family: 'Nunito', sans-serif;
     font-size: 30px;
 }
@@ -70,7 +74,7 @@
     font-family: 'Nunito', sans-serif;
     border-radius: 5%;
     padding: 0.5rem 0.5rem;
-    background-color: #F47C7C;
+    background-color: #B8405E;
 }
 
 .divBoton{
@@ -111,3 +115,4 @@
        font-size: 20px;
     }
 }
+

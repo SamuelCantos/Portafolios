@@ -15,11 +15,15 @@ import bootstrap from "./imgs/bootstrap.png"
 import git from "./imgs/git.png"
 import postman from "./imgs/postman.png"
 import "./Habilidades.css"
+import Particles from "../Particles/Particles";
 
 function Habilidades() {
     return (
 
-        <div className=''>
+        <div>
+             <div className="particle-container">
+                <Particles />
+            </div>
             <NavBar />
             <div className="textoH">
                 <section className="number">02.</section>
@@ -83,7 +87,9 @@ function Habilidades() {
                 <img className="skill-icon" src={postman} alt='react-error' width={80}/>
                 </div>
             </div>
-        </div>
+            </div>
+            
+ 
     )
 
 }
