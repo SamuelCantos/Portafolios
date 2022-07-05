@@ -39,7 +39,7 @@ function Proyectos() {
                 <Particles />
             </div>
             <NavBar />
-            <div className="textoH">
+            <div className="sobremi">
                 <section className="number">03.</section>
                 <section>PROYECTOS</section>
             </div>

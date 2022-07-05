@@ -25,7 +25,7 @@ function Habilidades() {
                 <Particles />
             </div>
             <NavBar />
-            <div className="textoH">
+            <div className="sobremi">
                 <section className="number">02.</section>
                 <section>HABILIDADES</section>
             </div>

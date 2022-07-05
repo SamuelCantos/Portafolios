@@ -3,6 +3,7 @@ import "./Home.css"
 import NavBar from "../NavBar/NavBar";
 import { AiFillGithub, AiFillLinkedin } from "react-icons/ai";
 import Particles from "../Particles/Particles";
+import Redes from "../Redes/Redes";
 
 
 
@@ -18,8 +19,10 @@ function Home() {
                     <h1>Samuel Cantos</h1>
                     <h2>Full Stack Developer.<span>&#160;</span></h2>
                 </div>
-
             </div>
+                <div className="redes">
+                        <Redes />
+                    </div>
         </div>
 
 

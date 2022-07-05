@@ -1,6 +1,5 @@
 .textoH{
     position: relative;
-    font-size: 70px;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -43,8 +42,4 @@
 }
 
 
-@media screen and (max-width: 700px){
-    .textoH{
-        font-size: 40px;
-    }
-}
+

@@ -5,7 +5,8 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top: 10%;
+    height: 85vh;
+
 } 
 
 
@@ -56,13 +57,21 @@
 
     @media screen and (max-width: 600px){
         .hs h1{
-        font-size: 60px;
+        font-size: 65px;
         }
         .hs h2{
-        font-size: 40px;
+        font-size: 50px;
         }
     }
 
+    @media screen and (max-width: 300px){
+        .hs h1{
+            font-size: 45px;
+            }
+            .hs h2{
+            font-size: 30px;
+            }
+    }
 
     .icons{
         display: flex;
