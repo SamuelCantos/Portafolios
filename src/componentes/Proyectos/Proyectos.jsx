@@ -35,7 +35,7 @@ function Proyectos() {
 
     return (
         <div>
-             <div className="particle-container">
+            <div className="particle-container">
                 <Particles />
             </div>
             <NavBar />
@@ -52,15 +52,21 @@ function Proyectos() {
             >
                 <img name='learnzilla' className="learnzilla-img" src={Learnzilla} width="auto" height="400" />
 
-                    <ModalHeader>
+                <ModalHeader>
                     <Modal.Title>LEARNZILLA</Modal.Title>
-                    </ModalHeader>
+                </ModalHeader>
                 <Modal.Body >
                     Academia de cursos online donde podemos comprar cursos como alumno, dejar rating a los mismos y otras funciones interesantes. Para poder subir nuestros cursos como profesor primero debemos pasar por una verificacion para ver si realmente estas capacitado, una vez pasada la prueba se pueden publicar cursos/videos.
                 </Modal.Body>
                 <Modal.Footer>
+
+
                     <Button variant="secondary" onClick={handleClose}>
                         Close
+                    </Button>
+
+                    <Button variant='primary'>
+                        <a href='https://github.com/dbriceno10/sh_learning-app' target='_blank' className='a'> Codigo</a>
                     </Button>
 
                     <Button variant="primary"><a className='a' target="_blank" href='https://learnzilla-app.vercel.app/'>Ver Proyecto</a></Button>
@@ -84,6 +90,11 @@ function Proyectos() {
                     <Button variant="secondary" onClick={handleClose}>
                         Close
                     </Button>
+
+                    <Button variant='primary'>
+                        <a href='https://github.com/SamuelCantos/proyecto-pokemon' target='_blank' className='a'> Codigo</a>
+                    </Button>
+
                 </Modal.Footer>
             </Modal> : ""}
             {proyecto === "three-mine" ? <Modal
@@ -104,31 +115,34 @@ function Proyectos() {
                     <Button variant="secondary" onClick={handleClose}>
                         Close
                     </Button>
+                    <Button variant='primary'>
+                        <a href='https://github.com/SamuelCantos/Three-Minecraft' target='_blank' className='a'> Codigo</a>
+                    </Button>
                     <Button variant="primary"><a className='a' target="_blank" href='https://three-l4998tnuo-samuelcantos.vercel.app/'>Ver Proyecto</a></Button>
                 </Modal.Footer>
             </Modal> : ""}
             <div className='container-proyects1'>
 
                 <div className='card-learnzilla'>
-                <div className='content'>
-                            <h2>Learnzilla</h2>
-                            <a name='learnzilla' onClick={handleShow}>ver detalle</a>
+                    <div className='content'>
+                        <h2>Learnzilla</h2>
+                        <a name='learnzilla' onClick={handleShow}>ver detalle</a>
                     </div>
                 </div>
 
 
                 <div className='card-pokedex' name='pokedex' onClick={handleShow} >
                     <div className='content'>
-                            <h2>Pokedex</h2>
-                            <a name='pokedex' onClick={handleShow}>ver detalle</a>
+                        <h2>Pokedex</h2>
+                        <a name='pokedex' onClick={handleShow}>ver detalle</a>
                     </div>
                 </div>
 
 
                 <div className='card-three'>
-                <div className='content'>
-                            <h2>Three-Mine</h2>
-                            <a name='three-mine' onClick={handleShow}>ver detalle</a>
+                    <div className='content'>
+                        <h2>Three-Mine</h2>
+                        <a name='three-mine' onClick={handleShow}>ver detalle</a>
                     </div>
                 </div>
 
