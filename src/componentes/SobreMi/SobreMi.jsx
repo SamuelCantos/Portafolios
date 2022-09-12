@@ -8,12 +8,8 @@ import Particles from "../Particles/Particles";
 
 function SobreMi() {
     return (
-        <div>
-            <div className="particle-container">
-                <Particles />
-            </div>
-            <NavBar />
-            <div className="container">
+        <>
+            <section className="containerSobreMi" id="sobremi">
                 <div className="sobremi">
                     <section className="number">01.</section>
                     <section>SOBRE MI</section>
@@ -40,15 +36,18 @@ function SobreMi() {
                                 <span className="s1">Lugar:</span>
                                 <span className="s2">Santiago del estero, Argentina.</span>
                             </div>
+                            <div>
+                                <span className="s1">Email:</span>
+                                <span className="s2">samuelcantos18@gmail.com</span>
+                            </div>
                         </div>
                         <div className="divBoton">
                             <a href={cv} download="SamuelCantosCV" className="descarga-boton">DESCARGAR CV</a>
                         </div>
                     </div>
                 </div>
-            </div>
-          
-        </div>
+            </section>
+        </>
     )
 }
 

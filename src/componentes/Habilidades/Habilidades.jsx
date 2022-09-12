@@ -20,76 +20,71 @@ import Particles from "../Particles/Particles";
 function Habilidades() {
     return (
 
-        <div>
-             <div className="particle-container">
-                <Particles />
-            </div>
-            <NavBar />
+        <section className='containerHabilidades' id='habilidades'>
             <div className="sobremi">
                 <section className="number">02.</section>
                 <section>HABILIDADES</section>
             </div>
             <div className='container-skills'>
                 <div className='icono-titulo'>
-                <h4>REACT</h4>
-                <img className="skill-icon" src={react} alt='react-error' width={90}/>
+                    <h4>REACT</h4>
+                    <img className="skill-icon" src={react} alt='react-error' />              </div>
+                <div className='icono-titulo'>
+                    <h4>JAVASCRIPT</h4>
+                    <img className="skill-icon" src={javascript} alt='react-error' />
+                </div>          
+                 <div className='icono-titulo'>
+                    <h4>TYPESCRIPT</h4>
+                    <img className="skill-icon" src={typescript} alt='react-error' />
                 </div>
                 <div className='icono-titulo'>
-                <h4>JAVASCRIPT</h4>
-                <img className="skill-icon" src={javascript} alt='react-error' width={80}/>
+                    <h4>REDUX</h4>
+                    <img className="skill-icon" src={redux} alt='react-error' />
+                </div>
+                <div className='icono-titulo' >
+                    <h4>NODE</h4>
+                    <img className="skill-icon" src={node} alt='react-error' />
                 </div>
                 <div className='icono-titulo'>
-                <h4>TYPESCRIPT</h4>
-                <img className="skill-icon" src={typescript} alt='react-error' width={80}/>
+                    <h4>HTML5</h4>
+                    <img className="skill-icon" src={html} alt='react-error' />
                 </div>
                 <div className='icono-titulo'>
-                <h4>REDUX</h4>
-                <img className="skill-icon" src={redux} alt='react-error' width={80}/>
+                    <h4>CSS</h4>
+                    <img className="skill-icon" src={css} alt='react-error' />
                 </div>
                 <div className='icono-titulo'>
-                <h4>NODE</h4>
-                <img className="skill-icon" src={node} alt='react-error' width={80}/>
+                    <h4>POSTGRE</h4>
+                    <img className="skill-icon" src={postgre} alt='react-error' />
                 </div>
                 <div className='icono-titulo'>
-                <h4>HTML5</h4>
-                <img className="skill-icon" src={html} alt='react-error' width={80}/>
+                    <h4>EXPRESS</h4>
+                    <img className="skill-icon" src={express} alt='react-error' />
                 </div>
                 <div className='icono-titulo'>
-                <h4>CSS</h4>
-                <img className="skill-icon" src={css} alt='react-error' width={80}/>
+                    <h4>SEQUELIZE</h4>
+                    <img className="skill-icon" src={sequelize} alt='react-error' />
                 </div>
                 <div className='icono-titulo'>
-                <h4>POSTGRE</h4>
-                <img className="skill-icon" src={postgre} alt='react-error' width={100}/>
+                    <h4>MONGO</h4>
+                    <img className="skill-icon" src={mongo} alt='react-error' />
                 </div>
                 <div className='icono-titulo'>
-                <h4>EXPRESS</h4>
-                <img className="skill-icon" src={express} alt='react-error' width={80}/>
+                    <h4>BOOTSTRAP</h4>
+                    <img className="skill-icon" src={bootstrap} alt='react-error' />
                 </div>
                 <div className='icono-titulo'>
-                <h4>SEQUELIZE</h4>
-                <img className="skill-icon" src={sequelize} alt='react-error' width={80}/>
+                    <h4>GIT</h4>
+                    <img className="skill-icon" src={git} alt='react-error' />
                 </div>
                 <div className='icono-titulo'>
-                <h4>MONGO</h4>
-                <img className="skill-icon" src={mongo} alt='react-error' width={80}/>
-                </div>
-                <div className='icono-titulo'>
-                <h4>BOOTSTRAP</h4>
-                <img className="skill-icon" src={bootstrap} alt='react-error' width={80}/>
-                </div>
-                <div className='icono-titulo'>
-                <h4>GIT</h4>
-                <img className="skill-icon" src={git} alt='react-error' width={80}/>
-                </div>
-                <div className='icono-titulo'>
-                <h4>POSTMAN</h4>
-                <img className="skill-icon" src={postman} alt='react-error' width={80}/>
+                    <h4>POSTMAN</h4>
+                    <img className="skill-icon" src={postman} alt='react-error' />
                 </div>
             </div>
-            </div>
-            
- 
+        </section>
+
+
     )
 
 }

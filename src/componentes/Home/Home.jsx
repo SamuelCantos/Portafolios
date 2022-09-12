@@ -9,7 +9,7 @@ import Redes from "../Redes/Redes";
 
 function Home() {
     return (
-        <div  >
+        <section id='home'  >
             <div className="particle-container">
                 <Particles />
             </div>
@@ -19,11 +19,8 @@ function Home() {
                     <h1>Samuel Cantos</h1>
                     <h2>Full Stack Developer.<span>&#160;</span></h2>
                 </div>
-            </div>
-                <div className="redes">
-                        <Redes />
-                    </div>
-        </div>
+                </div>
+        </section>
 
 
     )

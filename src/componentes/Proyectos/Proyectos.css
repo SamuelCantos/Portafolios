@@ -1,3 +1,11 @@
+.containerProyectos{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+}
+
+
 *{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
@@ -98,5 +106,31 @@ button.btn.btn-secondary{
 }
 .card-learnzilla:hover .content{
     opacity: 1;
+}
+
+@media screen and (max-width:1000px) {
+    .card-pokedex{
+        width: 200px;
+        height: 200px;
+       
+    }
+    .card-learnzilla{
+        width: 200px;
+        height: 200px;
+      
+    }
+    .card-three{
+        width: 200px;
+        height: 200px;
+    }
+    .card-learnzilla{
+        margin: 1rem
+    }
+    .card-pokedex{
+        margin: 1rem;
+    }
+    .card-three{
+        margin: 1rem;
+    }
 }
 

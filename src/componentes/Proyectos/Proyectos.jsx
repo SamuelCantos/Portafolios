@@ -34,11 +34,7 @@ function Proyectos() {
 
 
     return (
-        <div>
-            <div className="particle-container">
-                <Particles />
-            </div>
-            <NavBar />
+        <section className='containerProyectos' id='proyectos'>
             <div className="sobremi">
                 <section className="number">03.</section>
                 <section>PROYECTOS</section>
@@ -147,7 +143,7 @@ function Proyectos() {
                 </div>
 
             </div>
-        </div>
+        </section>
 
     )
 }

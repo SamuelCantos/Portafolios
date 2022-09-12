@@ -1,4 +1,4 @@
-.nav-link{
+.nav-link {
     font-family: 'Montserrat', sans-serif;
     font-size: 18px;
     display: block;
@@ -7,29 +7,28 @@
     transition: all 1s ease;
     text-decoration: none solid rgb(255, 255, 255, 0.835);
 }
+.containerNav{
+    position: fixed;
+    display: block;
+    flex-direction: row;
+}
 
-.nav-link:hover{
+.redesNav{
+    margin-left: 2rem;
+}
+
+.nav-link:hover {
     color: #2EB086;
 }
 
-
-
-.nav-contacto a{
+.nav-contacto a {
     padding: 0.5rem;
 }
 
-.redes{
-    display: flex;
-    position: relative;
-    justify-content: flex-end;
+
+
+@media screen and (max-width: 400px) {
+    .nav-link {
+        font-size: 14px;
+    }
 }
-
-@media screen and (max-width: 400px){
-    .nav-link{font-size: 14px;}
-
-   
-}
-
-
-
-
